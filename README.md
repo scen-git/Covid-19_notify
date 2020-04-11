@@ -14,7 +14,7 @@ notify-send
 sudo apt install git
 cd /tmp
 git clone https://github.com/scen-git/Covid-19_notify
-echo 'Exec=$HOME/.config/autostart/Covid-19_notify.sh' >> /tmp/Covid-19_notify/Covid-19_notify.desktop
+echo Exec=$HOME/.config/autostart/Covid-19_notify.sh >> /tmp/Covid-19_notify/Covid-19.desktop
 cp /tmp/Covid-19_notify/* ~/.config/autostart/
 chmod +x ~/.config/autostart/Covid-19_notify.sh
 ```
