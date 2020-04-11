@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Script
+Comment=Covid-19 reporting.
+Exec=~/.config/autostart/Notify_Covid-19.sh
+Categories=GNOME;Utility;
+Keywords=Utility;Covid-19;
