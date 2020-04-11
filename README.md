@@ -7,11 +7,12 @@ Sebuah simple bash script yang menampilkan informasi tentang virus corona(Covid-
 ```
 curl
 notify-send
+jq
 ```
 
 #### Cara pemasangan
 ```
-sudo apt install git
+sudo apt install git jq 
 cd /tmp
 git clone https://github.com/scen-git/Covid-19_notify
 echo Exec=$HOME/.config/autostart/Covid-19_notify.sh >> /tmp/Covid-19_notify/Covid-19.desktop
