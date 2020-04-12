@@ -2,7 +2,7 @@
 interval=6 #in hours
 
 function main() {
-  array=( "positif : $positif" "sembuh : $sembuh" "meninggal : $meninggal")
+  array=("positif : $positif" "sembuh : $sembuh" "meninggal : $meninggal")
   for i in "${array[@]}"
     do
       notify-send --app-name=Covid-19 --urgency=normal "Corona virus info" "Total $i"
