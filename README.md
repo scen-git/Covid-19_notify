@@ -7,7 +7,7 @@ Sebuah simple bash script yang menampilkan informasi tentang virus corona(Covid-
 #### Hal yang dibutuhkan
 ```
 curl
-notify-send
+notify-send atau libnotify-bin
 jq
 ```
 
