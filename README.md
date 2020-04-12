@@ -2,7 +2,7 @@
 
 #### Perkenalan
 Sebuah simple bash script yang menampilkan informasi tentang virus corona(Covid-19),hal yang ditampilkan adalah informasi seputar jumlah positif,sembuh, dan meninggal,bash script ini menggunakkan API dari [kawalcorona](https://api.kawalcorona.com)  
-![alt text](https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/Img/1.png)  
+![alt text](https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/Screenshot/gnome/gnome_totalsembuh.png)  
 
 #### Hal yang dibutuhkan
 ```
