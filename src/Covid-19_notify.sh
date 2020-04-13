@@ -26,9 +26,10 @@ function kde() {
 while true
 do
   api="https://api.kawalcorona.com/indonesia/"
-  positif=$(curl -s $api | jq -r '.[].positif')
-  sembuh=$(curl -s $api | jq -r '.[].sembuh')
-  meninggal=$(curl -s $api | jq -r '.[].meninggal')
+  data=$(curl -s $api)
+  positif=$(echo $data | jq -r '.[].positif')
+  sembuh=$(echo $data | jq -r '.[].sembuh')
+  meninggal=$(echo $data | jq -r '.[].meninggal')
   if [[ $(pgrep plasmashell | head -n 1) -gt 1 ]]; then
     kde
   else
