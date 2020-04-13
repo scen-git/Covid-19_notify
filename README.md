@@ -19,6 +19,11 @@ Sebuah simple bash script yang menampilkan informasi tentang virus corona(Covid-
 <img src="https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/Screenshot/xfce/XFCE_salan.png"><br>
 </p>
 
+<p align="center">
+<b> macOS </b> <br>
+<img src="https://github.com/naufalfachrian/Covid-19_notify/blob/darwin/Screenshot/osx/OSX_Total_Sembuh.png"><br>
+</p>
+
 #### Hal yang dibutuhkan
 ```
 curl
@@ -30,7 +35,8 @@ jq
 Arch Linux Base  
 Debian Base  
 Rhel Base  
-Gentoo,LFS & BSD base #*You know what you have to do*
+Gentoo,LFS & BSD base #*You know what you have to do*  
+OS X Maverick (10.9) atau versi macOS yang lebih mutakhir
 
 #### Cara pemasangan
 ```
