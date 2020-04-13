@@ -22,9 +22,15 @@ Sebuah simple bash script yang menampilkan informasi tentang virus corona(Covid-
 #### Hal yang dibutuhkan
 ```
 curl
-notify-send atau libnotify-bin
+libnotify-bin
 jq
 ```
+
+#### OS yang disupport
+Arch Linux Base  
+Debian Base  
+Rhel Base  
+Gentoo,LFS & BSD base #*You know what you have to do*
 
 #### Cara pemasangan
 ```
