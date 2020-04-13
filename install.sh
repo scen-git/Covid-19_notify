@@ -12,7 +12,7 @@ function checkOS() {
 }
 checkOS
 
-wget https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/src/Covid-19.desktop -O ~/.config/autostart/Covid-19.desktop
+wget https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/src/Covid_19.desktop -O ~/.config/autostart/Covid-19.desktop
 echo Exec=$HOME/.config/autostart/Covid-19_notify.sh >> ~/.config/autostart/Covid-19.desktop
 wget https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/src/Covid-19_notify.sh -O ~/.config/autostart/Covid-19_notify.sh
 chmod +x ~/.config/autostart/Covid-19_notify.sh

@@ -30,7 +30,7 @@ jq
 ```
 curl -s https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/install.sh | bash
 ```
-lalu logout dan login kembali secara otomatis script ini akan berjalan 6 jam sekali anda bisa mengubahnya dibagian interval ```interval=6 #in hours```  
+lalu logout dan login kembali secara otomatis script ini akan berjalan 6 jam sekali anda bisa mengubahnya difile ```~/.config/autostart/Covid-19_notify.sh``` dibagian interval ```interval=6 #in hours```  
 
 
 
