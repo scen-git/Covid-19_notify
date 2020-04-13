@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Script
+Comment=Covid-19 reporting.
+Categories=GNOME;Utility;
+Keywords=Utility;Covid-19;
+OnlyShowIn=GNOME;Xfce4;Unity;KDE;

@@ -28,7 +28,7 @@ jq
 
 #### Cara pemasangan
 ```
-curl https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/install.sh | bash
+curl -s https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/install.sh | bash
 ```
 lalu logout dan login kembali secara otomatis script ini akan berjalan 6 jam sekali anda bisa mengubahnya dibagian interval ```interval=6 #in hours```  
 
