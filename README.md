@@ -28,10 +28,7 @@ jq
 
 #### Cara pemasangan
 ```
-cd /tmp
-git clone https://github.com/scen-git/Covid-19_notify
-cd Covid-19_notify
-./install.sh
+curl https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/install.sh | bash
 ```
 lalu logout dan login kembali secara otomatis script ini akan berjalan 6 jam sekali anda bisa mengubahnya dibagian interval ```interval=6 #in hours```  
 
