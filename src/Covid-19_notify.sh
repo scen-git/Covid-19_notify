@@ -23,6 +23,17 @@ function kde() {
     kdialog --title "Stay at 127.0.0.1 or ::1" --passivepopup  "#dirumahaja"
 }
 
+function osx() {
+  array=("positif : $positif" "sembuh : $sembuh" "meninggal : $meninggal")
+  for i in "${array[@]}"
+    do
+      osascript -e "display notification \"Total $i\" with title \"Corona virus info\""
+      sleep 7
+    done
+    sleep 3
+    osascript -e 'display notification "#dirumahaja" with title "Stay at 127.0.0.1 or ::1"'
+}
+
 while true
 do
   api="https://api.kawalcorona.com/indonesia/"
@@ -32,6 +43,8 @@ do
   meninggal=$(echo $data | jq -r '.[].meninggal')
   if [[ $(pgrep plasmashell | head -n 1) -gt 1 ]]; then
     kde
+  elif [[ "$OSTYPE" == "darwin"* ]]; then
+    osx
   else
     notify
   fi
