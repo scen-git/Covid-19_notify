@@ -35,7 +35,7 @@ jq
 Arch Linux Base  
 Debian Base  
 Rhel Base  
-Gentoo,LFS & BSD base #*You know what you have to do*
+Gentoo,LFS & BSD base #*You know what you have to do*  
 OS X Maverick (10.9) atau versi macOS yang lebih mutakhir
 
 #### Cara pemasangan
