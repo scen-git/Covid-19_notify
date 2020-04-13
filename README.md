@@ -21,7 +21,7 @@ Sebuah simple bash script yang menampilkan informasi tentang virus corona(Covid-
 
 <p align="center">
 <b> macOS </b> <br>
-<img src="https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/Screenshot/osx/OSX_Total_Sembuh.png"><br>
+<img src="https://github.com/naufalfachrian/Covid-19_notify/blob/darwin/Screenshot/osx/OSX_Total_Sembuh.png"><br>
 </p>
 
 #### Hal yang dibutuhkan
