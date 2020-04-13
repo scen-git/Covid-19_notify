@@ -34,3 +34,9 @@ cd Covid-19_notify
 ./install.sh
 ```
 lalu logout dan login kembali secara otomatis script ini akan berjalan 6 jam sekali anda bisa mengubahnya dibagian interval ```interval=6 #in hours```  
+
+
+
+
+Created by  
+<img src="https://raw.githubusercontent.com/scen-git/Covid-19_notify/master/Screenshot/Scen.png">
