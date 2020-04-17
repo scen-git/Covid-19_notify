@@ -2,14 +2,7 @@
 interval=6 #in hours
 
 function notify() {
-  array=("positif : $positif" "sembuh : $sembuh" "meninggal : $meninggal")
-  for i in "${array[@]}"
-    do
-      notify-send --app-name=Covid-19 --urgency=normal --icon=dialog-information "Corona virus info" "Total $i"
-      sleep 7
-    done
-    sleep 3
-    notify-send --app-name=Covid-19 --urgency=critical "Stay at 127.0.0.1 or ::1" "#dirumahaja"
+    notify-send --app-name=Covid-19 --urgency=critical --icon=dialog-information "Corona virus info" "\nTotal Pasien Positif : $positif \nTotal Pasien Sembuh : $sembuh\nTotal Pasien Meninggal : $meninggal\n\nStay at 127.0.0.1 or ::1 \n\n#dirumahaja"  
 }
 
 function kde() {
